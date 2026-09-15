@@ -1,3 +1,5 @@
+[Local setup and environment recovery](SETUP.md)
+
 # Bunny's Academy - AI LMS Starter
 
 An approachable AI-powered LMS starter. Upload courses, stream lessons, and chat with an AI tutor about your content. Simple enough for beginners to run, flexible enough to grow.
@@ -41,7 +43,7 @@ Create `.env.local` with your keys:
 - Sanity: `NEXT_PUBLIC_SANITY_PROJECT_ID`, `NEXT_PUBLIC_SANITY_DATASET`
 - Clerk: `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`
 - OpenAI: `OPENAI_API_KEY`
-- Mux: `MUX_TOKEN_ID`, `MUX_TOKEN_SECRET`, `MUX_SIGNING_KEY_ID`, `MUX_SIGNING_KEY_PRIVATE`
+- Mux: `MUX_TOKEN_ID`, `MUX_TOKEN_SECRET`, `MUX_SIGNING_KEY_ID`, `MUX_SIGNING_KEY`
 
 ## Deploying (Vercel)
 

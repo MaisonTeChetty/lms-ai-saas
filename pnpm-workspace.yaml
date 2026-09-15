@@ -1,0 +1,8 @@
+allowBuilds:
+  # esbuild's installer selects and checks the native build executable.
+  "esbuild@0.21.5 || 0.25.12 || 0.27.0": true
+  "sharp@0.34.5": true
+  # Optional post-install notices / service worker setup are not needed here.
+  "@clerk/shared@3.36.0": false
+  "msw@2.12.3": false
+  sharp: set this to true or false

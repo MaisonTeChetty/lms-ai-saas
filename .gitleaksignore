@@ -1,0 +1,3 @@
+# PEM header template strings containing JS interpolation, not actual private key material.
+f62560bdf6b3e74aa2a0fb85b15be3c70151fda1:lib/mux.ts:private-key:21
+f62560bdf6b3e74aa2a0fb85b15be3c70151fda1:lib/mux.ts:private-key:24

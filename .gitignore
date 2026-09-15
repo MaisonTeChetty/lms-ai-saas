@@ -42,3 +42,9 @@ next-env.d.ts
 
 # clerk configuration (can include secrets)
 /.clerk/
+
+# Local credentials; only templates are committed
+.env
+.env.*
+!.env.example
+!.env.*.example
